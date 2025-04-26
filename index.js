@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+// document.addEventListener("DOMContentLoaded", function () {
   setTimeout(() => {
     (function () {
       const currentHost = window.location.hostname;
@@ -59,4 +59,4 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     })();
   }, 10000);
-});
+// });
