@@ -25,15 +25,8 @@ document.addEventListener("DOMContentLoaded", function () {
           return;
         }
 
-        // Keywords to remove
-        const blacklistKeywords = ["rahul"];
 
-        // Remove elements by ID/class
-        blacklistKeywords.forEach((keyword) => {
-          document
-            .querySelectorAll(`[id*="${keyword}"], [class*="${keyword}"]`)
-            .forEach((el) => el.remove());
-        });
+
 
         // Remove images
         document.querySelectorAll("img").forEach((img) => {
